@@ -1,0 +1,31 @@
+
+package nonaccessmodifier;
+
+
+
+final public class Final {
+		
+		
+		final int x = 100;
+		
+		final void print() {
+			System.out.println("Print the value of x: "+ x);
+		}
+
+		public static void main(String[] args) {
+			
+			Final fe = new Final();
+			fe.print();
+			
+		 int x=200;
+			
+			fe.print();
+			
+
+		}
+
+	}
+
+	
+
+
