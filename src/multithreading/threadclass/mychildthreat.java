@@ -19,5 +19,3 @@ public class mychildthreat extends Thread {
 	}
 
 	}
-
-
